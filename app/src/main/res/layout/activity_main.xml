@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:gravity="center"
+        android:text="@string/hello_world"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Bạch Trung Quốc"
+        android:textColor="@color/pink_purple"
+        android:textColorHighlight="@color/yellow"
+        android:textIsSelectable="true"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+        android:typeface="serif"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="@string/sdt"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/yellow"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="228dp"
+        android:layout_height="34dp"
+        android:layout_margin="1dp"
+        android:cursorVisible="true"
+        android:hint="@string/sdt"
+        android:inputType="number"
+        android:phoneNumber="true"
+        android:textColorHint="@color/grey"
+        tools:ignore="Deprecated,MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="@string/username"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview3"
+        android:layout_width="228dp"
+        android:layout_height="34dp"
+        android:layout_margin="1dp"
+        android:capitalize="words"
+        android:cursorVisible="true"
+        android:hint="@string/username"
+        android:inputType="text"
+        android:textAllCaps="true"
+        android:textColorHint="@color/grey"
+        tools:ignore="Deprecated,MissingConstraints" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:text="@string/password"
+        android:textColor="@color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textview4"
+        android:layout_width="228dp"
+        android:layout_height="34dp"
+        android:cursorVisible="true"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:password="true"
+        android:textColorHint="@color/grey"
+        tools:ignore="Deprecated,MissingConstraints"
+        android:layout_margin="5dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/btnExit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:text="Exit" />
+    </LinearLayout>
+</LinearLayout>
