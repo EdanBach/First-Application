@@ -13,6 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_margin="1dp"
         android:gravity="center"
+        android:maxHeight="30sp"
         android:text="@string/hello_world"
         android:textSize="30sp" />
 
