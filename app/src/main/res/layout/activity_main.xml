@@ -17,7 +17,7 @@
         android:text="@string/hello_world"
         android:textSize="30sp" />
 
-    <TextView
+<TextView
         android:id="@+id/textview1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -29,7 +29,6 @@
         android:textIsSelectable="true"
         android:textSize="30sp"
         android:textStyle="bold"
-
         android:typeface="serif"
         tools:ignore="MissingConstraints" />
 
@@ -42,11 +41,11 @@
         android:textColorHighlight="@color/yellow"
         android:textSize="20sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/textview2"
         android:layout_width="228dp"
-        android:layout_height="34dp"
-        android:layout_margin="1dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="3dp"
         android:cursorVisible="true"
         android:hint="@string/sdt"
         android:inputType="number"
@@ -62,10 +61,10 @@
         android:textColor="@color/black"
         android:textSize="20sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/textview3"
         android:layout_width="228dp"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
         android:layout_margin="1dp"
         android:capitalize="words"
         android:cursorVisible="true"
@@ -83,20 +82,20 @@
         android:textColor="@color/black"
         android:textSize="20sp" />
 
-    <TextView
+    <EditText
         android:id="@+id/textview4"
         android:layout_width="228dp"
-        android:layout_height="34dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
         android:cursorVisible="true"
         android:hint="@string/password"
         android:inputType="textPassword"
         android:password="true"
         android:textColorHint="@color/grey"
-        tools:ignore="Deprecated,MissingConstraints"
-        android:layout_margin="5dp" />
+        tools:ignore="Deprecated,MissingConstraints" />
 
     <LinearLayout
-        android:layout_width="match_parent"
+        android:layout_width="259dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:orientation="horizontal">
